@@ -37,8 +37,8 @@ namespace WindowsFormsApp1
         private void MakeScript()
         {
             string script = $@"
-                                del ""{MvciLocation}\Content\Paks\~mods\lk*"" 
-                                del ""{MvciLocation}\Content\Paks\~mods\*ZZ*Balance*"" 
+                                del ""{MvciLocation}\MVCI\Content\Paks\~mods\lk*"" 
+                                del ""{MvciLocation}\MVCI\Content\Paks\~mods\*ZZ*Balance*"" 
                                 
                                 copy ""{PakLocation}"" ""{MvciLocation}\MVCI\Content\Paks\~mods\""
                                 ""{MvciLocation}\MVCI\Binaries\Win64\MVCI.exe""
